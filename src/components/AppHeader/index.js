@@ -1,6 +1,8 @@
 import React from "react";
+import './AppHeader.css';
+
 
 const AppHeader=()=>(
-    <h1>My Todo List HEADER</h1>
+    <h1 className="app-header">Todo List</h1>
 )
 export default AppHeader;

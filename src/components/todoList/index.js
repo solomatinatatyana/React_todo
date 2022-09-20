@@ -1,5 +1,6 @@
 import React from "react";
-import TodoListItem from "./TodoListItem";
+import TodoListItem from "../todoListItem";
+import "./ToDoList.css"
 
 
 const ToDoList=({todos})=>{
@@ -7,12 +8,12 @@ const ToDoList=({todos})=>{
 
         const {id, ...itemProps}=item
         return (
-            <li key={item.id}>
+            <li key={item.id} className="ant-list-item ant-list-item-no-flex ant-list-bordered">
                 <TodoListItem {...itemProps}/>
             </li>)
     })
 
-    return(<ul>
+    return(<ul className="ant-list-sm ant-list-bordered todo-list">
         {elements}
     </ul>)
 }

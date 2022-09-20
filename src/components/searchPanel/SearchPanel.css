@@ -1,0 +1,7 @@
+@import '~antd/dist/antd.css';
+
+.search-input {
+    width: auto;
+    flex-grow: 1;
+    /*margin-right: 30px;*/
+}
