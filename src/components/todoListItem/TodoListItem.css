@@ -30,6 +30,11 @@
     color: darkgreen;
 }
 
+.btn-edit{
+    border-color: blue;
+    color: blue;
+}
+
 .ant-btn-group{
     float: right;
 }
